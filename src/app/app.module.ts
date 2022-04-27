@@ -6,11 +6,16 @@ import { CadastroComponent } from './cadastro/cadastro.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
+import { LoginComponent } from './login/login.component';
+import { HomePageComponent } from './home-page/home-page.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    CadastroComponent
+    CadastroComponent,
+    LoginComponent,
+    HomePageComponent,
   ],
   imports: [
     BrowserModule,
