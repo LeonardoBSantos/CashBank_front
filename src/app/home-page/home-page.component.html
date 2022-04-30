@@ -3,8 +3,8 @@
     <mat-icon class="mat-icon">menu</mat-icon>
   </button> -->
   <img src="../../assets/menu.svg" alt="menu" width="35px" type="button" mat-button (click)="drawer.toggle()">
-  <span style="margin-left: 3%;">My App</span>
-  <span class="example-spacer"></span>
+  <span style="margin-left: 3%;">CashBank</span>
+  <!-- <span class="example-spacer"></span> -->
   <!-- <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
     <mat-icon>favorite</mat-icon>
   </button> -->
@@ -13,20 +13,20 @@
   </button> -->
 </mat-toolbar>
 
-<mat-drawer-container class="example-container" autosize>
-  <mat-drawer #drawer class="example-sidenav" mode="side">
-    <p>Auto-resizing sidenav</p>
-    <p *ngIf="showFiller">Lorem, ipsum dolor sit amet consectetur.</p>
+<mat-drawer-container class="md-container" autosize>
+  <mat-drawer #drawer class="md-sidenav" mode="side">
+    <a href="#"><p>Meus Dados</p></a>
+    <!-- <p *ngIf="showFiller">Lorem, ipsum dolor sit amet consectetur.</p>
     <button (click)="showFiller = !showFiller" mat-raised-button>
       Toggle extra text
-    </button>
+    </button> -->
   </mat-drawer>
 
-  <div class="example-sidenav-content">
+  <!-- <div class="example-sidenav-content">
     <button type="button" mat-button (click)="drawer.toggle()">
       Toggle sidenav
     </button>
-  </div>
+  </div> -->
 
 </mat-drawer-container>
 

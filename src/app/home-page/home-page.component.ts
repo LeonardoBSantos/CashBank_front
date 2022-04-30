@@ -1,8 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-/**
- * @title Autosize sidenav
- */
 @Component({
   selector: 'app-home-page',
   templateUrl: './home-page.component.html',
