@@ -13,6 +13,7 @@ import { MatSliderModule } from '@angular/material/slider';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
+import { MyDataComponent } from './my-data/my-data.component';
 
 
 
@@ -22,6 +23,7 @@ import { MatIconModule } from '@angular/material/icon';
     CadastroComponent,
     LoginComponent,
     HomePageComponent,
+    MyDataComponent,
   ],
   imports: [
     BrowserModule,
