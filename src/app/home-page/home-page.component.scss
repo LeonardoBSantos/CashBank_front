@@ -17,3 +17,17 @@
 .md-sidenav {
   padding: 20px;
 }
+
+.content {
+  background-color: white;
+  padding: 16px;
+  border-radius: 4px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  &__titulo {
+    text-transform: capitalize;
+    color: var(--primary);
+    margin-bottom: 15px;
+  }
+}
+
+

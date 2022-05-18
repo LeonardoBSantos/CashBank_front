@@ -25,7 +25,13 @@ a{
   max-width: 400px;
   padding: 30px;
   margin: 0 auto;
+  &__list {
+    padding: 30px;
+    margin: 0 auto;
+    color: black;
+  }
 }
+
 
 
 html, body { height: 100%; }
