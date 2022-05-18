@@ -1,0 +1,18 @@
+<mat-toolbar>
+  <img src="../../assets/menu.svg" alt="menu" width="35px" type="button" mat-button (click)="drawer.toggle()">
+  <span style="margin-left: 3%;">CashBank</span>
+</mat-toolbar>
+
+<mat-drawer-container class="md-container" autosize>
+  <mat-drawer #drawer class="md-sidenav" mode="side">
+    <a routerLink="../myData"><p>Meus Dados</p></a>
+  </mat-drawer>
+  <section class="container__list">
+    <div>
+      <h2>Saldo Total</h2>
+      <p>R$ 100.000,00</p>
+    </div>
+  </section>
+
+</mat-drawer-container>
+

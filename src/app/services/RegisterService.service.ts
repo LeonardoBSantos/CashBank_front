@@ -9,10 +9,16 @@ import { Observable } from 'rxjs';
 export class RegisterServiceService {
 
   private url = 'https://localhost:44345/api/Client/Create';
+  private GetUrl = 'https://localhost:44345/api/Client?id=D602EFF2-445D-4AC8-781B-08D9E6A28C66';
   private registersList: any[];
 
   constructor(private httpClient: HttpClient) {
     this.registersList = [];
+  }
+
+  GetClientDataService() : Observable<RegisterModel>{
+    console.log("p1 - service")
+    return this.httpClient.get<RegisterModel>(this.GetUrl);
   }
 
   ClientRegisterService(registerModel:RegisterModel) : Observable<RegisterModel>{
