@@ -27,6 +27,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 
+<img src="src/assets/cashbank_home.PNG" alt="Home" style="width:100%">
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -131,7 +133,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
   <div class="w3-row-padding w3-grayscale">
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
-        <img src="https://www.w3schools.com/w3images/team2.jpg" alt="John" style="width:100%">
+        
         <div class="w3-container">
           <h3>John Doe</h3>
           <p class="w3-opacity">CEO & Founder</p>
