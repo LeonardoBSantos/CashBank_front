@@ -8,9 +8,84 @@
     <a routerLink="../myData"><p>Meus Dados</p></a>
   </mat-drawer>
   <section class="container__list">
-    <div>
-      <h2>Saldo Total</h2>
-      <p>R$ 100.000,00</p>
+    <div class="row">
+      <div class="column">
+        <mat-card class="card">
+          <mat-card-title>Saldo Total</mat-card-title>
+          <div>
+            <!-- <mat-card-subtitle></mat-card-subtitle> -->
+            <p style="font-size: 30px;">R$ 100.000,00</p>
+          </div>
+          <!-- <mat-card-content>
+            <p>This card indeterminates progress bar.</p>
+            <p>{{longText}}</p>
+          </mat-card-content> -->
+          <mat-card-actions style="margin-top: 80px;">
+            <button mat-button class="button">Depositar</button>
+            <button mat-button class="button" style="margin-left: 5px;">Transferir</button>
+            <button mat-button class="button" style="margin-left: 5px;">Guardar</button>
+          </mat-card-actions>
+        </mat-card>
+      </div>
+      <div class="column">
+        <mat-card class="card">
+          <mat-card-title>Extrato</mat-card-title>
+          <div>
+            <mat-card-subtitle> Últimos lançamentos</mat-card-subtitle>
+            <div style="background-color: white; color: black;">
+              <table>
+                <tr>
+                  <th>Company</th>
+                  <th>Contact</th>
+                  <th>Country</th>
+                </tr>
+                <tr>
+                  <td>Alfreds Futterkiste</td>
+                  <td>Maria Anders</td>
+                  <td>Germany</td>
+                </tr>
+                <tr>
+                  <td>Centro comercial Moctezuma</td>
+                  <td>Francisco Chang</td>
+                  <td>Mexico</td>
+                </tr>
+              </table>
+            </div>
+            <mat-card-actions style="margin-top: 20px;">
+              <button mat-button class="button">Consultar Extrato</button>
+            </mat-card-actions>
+          </div>
+        </mat-card>
+      </div>
+    </div>
+    <div class="row" style="margin-top: 30px;">
+      <div class="column">
+        <mat-card class="card">
+          <mat-card-title>Dashboard</mat-card-title>
+          <div>
+            <mat-card-subtitle> Total de gastos, ganhos e etc</mat-card-subtitle>
+          </div>
+          <!-- <mat-card-content>
+            <p>This card indeterminates progress bar.</p>
+            <p>{{longText}}</p>
+          </mat-card-content> -->
+          <mat-card-actions style="margin-top: 90px;">
+            <button mat-button class="button">Consultar Gráficos</button>
+          </mat-card-actions>
+        </mat-card>
+      </div>
+      <div class="column">
+        <mat-card class="card">
+          <mat-card-title>Planejamento</mat-card-title>
+          <div>
+            <mat-card-subtitle> Organize o dinheiro guardado em objetivos</mat-card-subtitle>
+          </div>
+          <mat-card-actions style="margin-top: 90px;">
+            <button mat-button class="button">Criar Objetivo</button>
+            <button mat-button class="button" style="margin-left: 5px;">Excluir Objetivo </button>
+          </mat-card-actions>
+        </mat-card>
+      </div>
     </div>
   </section>
 
